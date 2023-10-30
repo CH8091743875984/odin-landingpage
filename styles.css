@@ -1,29 +1,70 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: #1F2937;
     font-family: roboto, Helvetica, sans-serif;
+    padding: 0 64px;
+    background-color: rgb(68, 68, 68);
 }
-
+/* header related stuff */
 .header {
     display: flex;
     justify-content: space-between;
-    
+    background-color: #1F2937;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .links {
     display: flex;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
+/* box first stuff */
 .box_first {
     display: flex;
-    color: white;
+    background-color: #1F2937;
+
 }
 
 .upleft {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
+
+.upimg {
+    display: flex;
+    flex: 1;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slogan {
+    font-size: 48px ;
+    text-emphasis: extra-bold ;
+    color: #F9FAF8;
+}
+
+.intro {
+    text-emphasis: extra-bold;
+    width: 75px;
+    background-color: #3882f6;
+    border: none;
+}
+
+.explainer {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+/* box second stuff */
 
 .box_second {
     display: flex;
@@ -31,14 +72,30 @@ body {
     background-color: white;
 }
 
+.midtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .carousel {
     display: flex;
+    justify-content: center;
 }
 
 .carousel_item {
     display: flex;
     flex-direction: column;
+    font-size: 10px;
 }
+
+.carousel_item_image {
+    border-style: solid;
+    border-color: #3882F6
+}
+
+
+/* box third stuff */
 
 .box_third {
     display: flex;
@@ -46,18 +103,44 @@ body {
     background-color: #e5e7eb;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light; /* this isn't working? */
+}
+
+/* box fourth stuff */
+
 .box_fourth {
     display: flex;
     background-color: white;
+    justify-content: center;
 }
 
 .cta_box {
     display: flex;
-    flex-direction: column;
+    background-color: #3882F6;
 }
+
+.cta_text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
+.cta {
+    background-color: #3882F6;
+    border: solid;
+    border-color: #F9FAF8;
+}
+
+/* footer stuff */
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+
 }
