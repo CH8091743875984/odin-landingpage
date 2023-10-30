@@ -1,11 +1,14 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    font-family: roboto, Helvetica, sans-serif;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .links {
@@ -13,7 +16,8 @@ body {
 }
 
 .box_first {
-    display: flex
+    display: flex;
+    color: white;
 }
 
 .upleft {
@@ -24,6 +28,7 @@ body {
 .box_second {
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .carousel {
@@ -38,10 +43,12 @@ body {
 .box_third {
     display: flex;
     flex-direction: column;
+    background-color: #e5e7eb;
 }
 
 .box_fourth {
     display: flex;
+    background-color: white;
 }
 
 .cta_box {
